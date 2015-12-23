@@ -1,0 +1,40 @@
+.main h1 {
+    margin: 0;
+    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+}
+#heading-top {
+    font-size: 34px;
+    font-weight: 200;
+}
+#heading-bottom {
+    font-size: 64px;
+    font-weight: 600;
+}
+.main h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #7C7C7C;
+}
+
+.card {
+    padding: 0;
+}
+.card .filter, .card .header .actions {
+    border-radius: 5px 5px 0 0;
+}
+.card .header .actions .btn {
+    margin: 0;
+}
+.label-danger {
+    background-color: #FF3B30;
+    color: #FFF;
+    padding: 10px;
+}
+.label-warning {
+    background-color: #FF9500;
+    color: #FFF;
+    padding: 10px;
+}

@@ -1,0 +1,57 @@
+body {
+    background-color: #E8E8E8;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Pathway Gothic One', Helvetica, Arial, sans-serif;
+    font-size: 32px;
+}
+.navbar:not(.navbar-transparent).navbar-ct-darkblue{
+    background-color: #343434;
+    background-color: rgba(20, 40, 80, 0.9);
+}
+.dropdown-toggle:hover {
+    cursor: pointer;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: transparent;
+}
+.navbar-form .form-control {
+    background-color: rgba(207, 207, 207, 0.2);
+    border-radius: 5px;
+    height: 28px;
+    padding-left: 8px;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #A5A5A5;
+}
+.login .btn-login, .registerBox .btn-register {
+    background-color: #00649a;
+}
+.login .btn-login:hover, .registerBox .btn-register:hover {
+    background-color: #005381;
+}
+
+.main {
+    z-index: 0;
+    box-shadow: 0 0 2px #828282;
+}
+.main, .tim-container {
+    background-color: #E8E8E8;
+}
+
+footer {
+    padding-top: 10px;
+    background-color: #CFCFCF;
+    text-align: center;
+}
+footer li {
+    display: inline;
+    margin-right: 1em;
+    font-size: 12px;
+}
+footer li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

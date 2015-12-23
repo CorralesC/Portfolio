@@ -1,0 +1,14 @@
+.main h1 {
+    margin: 0;
+    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    font-size: 48px;
+    font-weight: 200;
+}
+.main h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #7C7C7C;
+}
