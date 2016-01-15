@@ -8,6 +8,10 @@ angular.module('CollectiveApp', ['ui.router'])
             .state('about', {
                 url: '/about',
                 templateUrl: 'views/about.html'
+            })
+            .state('Portraits', {
+                url: '/Portraits',
+                templateUrl: 'views/Portraits.html'
             });
         $urlRouterProvider.otherwise('/home');
     });
