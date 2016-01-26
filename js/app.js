@@ -12,6 +12,10 @@ angular.module('CollectiveApp', ['ui.router'])
             .state('Portraits', {
                 url: '/Portraits',
                 templateUrl: 'views/Portraits.html'
+            })
+            .state('Gerald', {
+                url: '/Gerald',
+                templateUrl: 'views/Gerald.html'
             });
         $urlRouterProvider.otherwise('/home');
     });
