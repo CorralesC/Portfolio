@@ -8,7 +8,7 @@ body {
 }
 .navbar:not(.navbar-transparent).navbar-ct-darkblue{
     background-color: #343434;
-    background-color: rgba(20, 40, 80, 0.9);
+    background-color: rgba(166, 135, 190, 0.9);
 }
 .dropdown-toggle:hover {
     cursor: pointer;
